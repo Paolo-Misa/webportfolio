@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    /*background-color:#E3E4E0 ;*/
+
+    
+}
+
+/*view and row height*/
+.view-height{
+    height: 92vh;
+}
+
+.row-height {
+    height: 100%;
+}
+
+
+
+/*nav bar css*/
+
+.navbar {
+    /*background-image: linear-gradient(-90deg, #d38312, #a83279)*/
+    /*box-sizing: border-box;*/
+    background-color: #E3E4E0!important;
+
+
+}
+
+.navbar-brand {
+    letter-spacing: 3px;
+    font-weight: 500px;
+    /*margin: 3px;*/
+    /*color: beige!important;*/
+    /*color: black;*/
+    font-size: 18px;
+    /*border: 1px solid;*/
+
+}
+
+.navbar-brand:hover {
+    /*border-bottom: solid beige 1px;*/
+    /*font-weight: 1000px;*/
+    /*letter-spacing: 2px;*/
+    
+}
+
+.navbar-nav {
+    text-align: right;
+    ,margin-right: 20px;
+}
+
+
+}
+.nav-link {
+   letter-spacing: 2px;
+    font-weight: 500px;
+    /*margin: 3px;*/
+    /*color: beige!important;*/
+    color: black;
+    font-size: 16px;
+    /*border: 1px solid;*/
+
+}
+
+.nav-link:hover{
+    /*border-bottom: solid beige 1px ;*/
+    color: indianred!important;
+    font-weight: 600px;
+}
+
+.navbar-toggler {
+    outline: none!important;
+    border: none!important;
+    /*color: beige!important;*/
+    color: black;
+}   
+   
+/*end of navbar*/
+
+/*home page*/
+
+
+.home-container {
+    background: #e3e4e0!important;
+}
+
+.dev-name {
+    padding-top: 40px;
+    padding-left: 60px;
+}
+
+.bonsai {
+    width: 80vh; 
+}
+
+.pt-5 {
+    padding-top: 100px!important;
+}
+/*end of Home Page*/
+
+
+
+
+/*about page*/
+.nav-brand-about {
+    color: darkslategray!important;
+    font-size: 18px;
+}
+
+
+.nav-brand-about:hover {
+    color: indianred!important;
+
+}
+
+.about-nav-link{
+    color: darkslategray!important;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    /*margin: 3px;*/
+    font-size: 16px;
+}
+
+.about-h1{
+    color: darkslategray!important;
+    text-decoration: none;
+}
+
+.about-h1:hover{
+    color: indianred!important;
+    text-decoration: none;
+}
+
+.card-bg {
+    background-color: #af9f8c;
+    /*background-color: #7f867b;*/
+    color: ;
+}
+
+.icon-text {
+    color: #E3E4E0!important ;
+}
+
+.about-bg {
+    background-color: #E3E4E0 ;
+}
+    
+}
+/*end of about page*/
+
+
+/*Projects Page*/
+
+
+
+.project-nav-link {
+    color: yellow!important;
+       letter-spacing: 2px;
+    font-weight: 500px;
+    font-size: 18px;
+
+}
+
+.project-nav-link:hover{
+    color: coral!important;
+}
+
+.navbar-brand:hover {
+    color: coral!important;
+}
+
+.manual-row-height{
+    height: 11vh;
+}
+
+.project-color {
+    background-color: #c7c7bb!important; /*matcha color*/
+}
+
+.project-card {
+    background-color:#e3e4e0!important;
+    /*background-color:#7f867b!important;*/
+}
+
+
+.btn-project {
+    background-color:indianred!important ;
+}
+/*End of Projects Page*/
+
+
+/*Contact Page*/
+.contact-color {
+    background-color: #d4c8be!important;
+}
+
+.contact-nav-link {
+   letter-spacing: 2px;
+    font-weight: 500px;
+    /*margin: 3px;*/
+    color: #7f867B!important;
+    /*color: black;*/
+    font-size: 16px;
+    /*border: 1px solid;*/
+}
+
+.contact-nav-brand {
+    letter-spacing: 3px;
+    font-weight: 500px;
+    /*margin: 3px;*/
+    color: #7f867B!important;
+    /*color: black;*/
+    font-size: 18px;
+    /*border: 1px solid;*/
+    }
+
+.contact-nav-brand:hover {
+    color: indianred!important;
+
+}
+
+.contact-h2 {
+    color:#7f867B!important ;
+    font-weight: 700;
+}
+
+.send-btn {
+    background-color: indianred;
+}
+/*End of Contact Page*/
+
