@@ -71,6 +71,11 @@
     font-weight: 600px;
 }
 
+.nav-link.active{
+    color: indianred!important;
+    font-weight: 600px
+}
+
 .navbar-toggler {
     outline: none!important;
     border: none!important;
@@ -232,3 +237,7 @@
 }
 /*End of Contact Page*/
 
+.footer-bg {
+    
+    background-color:#e3e4e0!important;
+}

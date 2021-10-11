@@ -30,7 +30,7 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50" -->
 
     <!-- Navbar -->
 
@@ -39,7 +39,7 @@
    
 
 
-        <nav class="navbar navbar-expand-lg navbar-light ">
+        <nav  class="navbar navbar-expand-lg navbar-light fixed-top">
             <a class="navbar-brand" href="./index.html"></a>
              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
@@ -48,13 +48,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item ">
-                        <a class="nav-link" href="./links/about.html">About</a>
+                        <a class="nav-link" href="#About-Section">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./links/projects.html">Projects</a>
+                        <a class="nav-link" href="#Projects-Section">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./links/contact.html">Contact</a>
+                        <a class="nav-link" href="#Contact-Section">Contact</a>
                     </li>        
                 </ul>
             </div>
@@ -68,7 +68,7 @@
 
 <!-- End of Navbar -->
 
-<!--container -->
+<!--Home container -->
 
 <div class="container-fluid view-height">
     <div class="row  row-height">
@@ -76,7 +76,7 @@
         <!-- Name Column -->
         <div class="col-xl-5 col-md-12 col-md-6 col-sm-12  home-container">
 
-            <div class="dev-name">
+            <div class="dev-name mt-3">
             <h1><strong>Paolo Misa</strong></h1>
             <h3>Full-Stack Developer</h3>
             </div>
@@ -88,32 +88,256 @@
         </div>
     </div>
 
-
-
-
 </div>
 
 
+<!--Home container end  -->
+
+<!-- About Container -->
+<div id="About-Section" class="container-fluid about-bg view-height">
+
+        <!-- first row -->
+        <div class="row row-height about-bg">
+
+        <!-- name row and column -->
+           <div class="col-xl-6  col-md-12  col-sm-12  home-container">
+               
+                <div class="pt-5 text-center ">
+                    <h1><a class="about-h1 " href="../index.html">Paolo Misa</a></h1>
+                    <h3>Full-Stack Developer</h3>
+
+                    <p class="text-justify mt-3">
+                        About me. I'm a husband, a father, and a dog lover. I believe in redemption. I do DIY projects, I'm passionate about cooking. I wake up early to get things done. I love biking and swimming, but I dread running. I listen to Debussy and lofi. and on my free time, I read about design and arts.
+                    </p>
+
+                    <a href="./documents/Misa.Paolo.Resume.pdf" download="" target="_blank" class="btn btn-secondary btn-project text-light">My Resume</a>
+                    
+                </div>
+             </div>
+
+
+
+        <!-- card slide -->
+            <!--  <div id="carouselExampleSlidesOnly" class="carousel slide col-xl-6  col-md-12 about-bg col-sm-12" data-ride="carousel" >
+               
+                </div> -->
+        <!-- end of name row and column -->
+
+        <!-- card column -->
+            <div class="col-xl-6  col-md-12 about-bg col-sm-12 view-height">
+                
+
+                <!-- goal card -->
+                <div class="card py-2 px-3 card-bg my-5">
+                            <div class="card-body card-bg text-center text-light">
+                             <strong class="card-bg">My goal is to be a highly proficient developer, coding meaningful applications, sharing, collaborating, and working with innovative companies that empower and share my goals and values.</strong>
+                            </div>
+                </div>
+
+                <!-- philosopy card -->
+                <div class="card py-2 px-3 card-bg my-5">
+                            <div class="card-body  card-bg text-center text-light">
+                                    Uncluttered, clean lines, with purpose, timeless, toned down but with accents; minimalist. It is the design philosophy that guides my work. Visual presentation, aesthetic, and concise communication.
+                            </div>
+                </div>
+
+                <!-- tools card -->
+                <div class="card  card-bg py-2 px-3 my-5">
+                            <div class="card-body card-bg text-center">
+                                <h5 class="card-bg text-light"> Skills</h5>
+                                <i class="fab fa-html5 fa-4x  rounded  icon-text mx-2 card-bg"></i>
+                                <i class="fab fa-css3-alt fa-4x  rounded icon-text mx-2 card-bg"></i>
+                                <i class="fab fa-bootstrap fa-4x  rounded icon-text mx-2 card-bg"></i>
+                                <!-- <i class="fab fa-js fa-5x bg-primary rounded text-white"></i> -->
+                                <i class="fab fa-git-alt fa-4x rounded icon-text mx-2 card-bg"></i>
+                                <i class="fab fa-github fa-4x  rounded icon-text mx-2 card-bg"></i>
+                                <i class="fab fa-gitlab fa-4x rounded icon-text mx-2 card-bg"></i>
+                            </div>
+                </div>
+
+
+   
+
+
+            </div> <!-- end of card column -->
+              
+        </div><!-- end of first row-->
+
+
+
+    </div><!-- end of about container -->
+
+  <!-- About Container End -->
+
+<!-- Projects Container -->
+<div class="container-fluid">
+
+        <!-- manual spacer -->
+        <div class="row manual-row-height project-color ">
+            <div class="col-xl-12 col-md-0 "></div>
+        </div>
+        <!-- end of manual spacer   -->
 
 
 
 
 
+        <!-- Projects Row -->
+        <div id="Projects-Section" class="row  justify-content-around project-color ">
+            
+                <!-- card 1 -->
+                <div class="card project-card col-md-3 my-3 " style="width: 18rem;">
+                    <img class="img-fluid mt-3" src="../images/newspaper.jpg" class="card-img-top" alt="portfolio screenshot">
+                    <div class="card-body text-center">
+                        <h5 class="card-title "><strong>News Company Website</strong></h5>
+                             <p class="card-text ">for illustration purposes only
+                             </p>
+                            <a href="..." class="btn btn-secondary btn-project text-light">go to Project</a>
+                    </div>
+                </div>
+                
 
-<!--container end  -->
+                <!-- card 2 -->
+                <div class="card project-card col-md-3 my-3" style="width: 18rem;">
+                    <img class="img-fluid mt-3" src="../images/landing-screenshot.jpg" class="card-img-top" alt="portfolio screenshot">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"><strong>My First Project</strong></h5>
+                             <p class="card-text ">My Portfolio Website, the one you are in now, is my first project. It served as my first capstone with Zuitt Full Stack Bootcamp
+                             </p>
+                            <a href=".././index.html" class="btn btn-secondary btn-project text-light">go to my Home Page</a>
+                    </div>
+                </div>
+
+                <!-- card 3 -->
+                <div class="card project-card col-md-3 my-3" style="width: 18rem;">
+                    <img class="img-fluid mt-3" src="../images/shoes.jpg" class="card-img-top" alt="portfolio screenshot">
+                    <div class="card-body text-center ">
+                        <h5 class="card-title"><strong>Shoes Website</strong></h5>
+                             <p class="card-text ">for illustration purposes only</p>
+
+                            <a href="..." class="btn btn-secondary btn-project text-light">go to Project</a>
+                    </div>
+                </div>
+            
+
+        </div>
+
+        <!-- end of Projects row -->
+
+        <!-- manual spacer -->
+        <div class="row manual-row-height  project-color">
+            <div class="col-12 "></div>
+        </div>
+        <!-- end of manual spacer   -->
+   
+    </div>   
+
+<!-- Projects Container End -->
+
+<!-- Contact Container  -->
+<div id="Contact-Section" class="container-fluid">
+    
+        <div class="row contact-color justify-content-center">
+            <div class="col-12 justify-content-center ">   
+                    <div class="text-center">
+                    <h2 class=" contact-h2 "><strong>Contact Me</strong></h2>
+                        <a href=""><i class="fab fa-linkedin  fa-2x"></i></a>
+                        <a href=""><i class="fab fa-facebook-messenger  fa-2x"></i></a>
+                    </div>
+            </div> 
+
+                
+                    
+                        <!-- <div class=" col-lg-4 col-md-6 col-sm-12"> -->
+                            <form class="col-xl-5 col-md-8 bg-secondary rounded my-3 py-2">
+
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                </div>
+
+                                <div class="form-group justify-content-center">
+                                    <label for="email">Email address</label>
+                                    <input type="email" class="form-control" id="email" aria-describedby="" placeholder="name@example.com">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contact">Contact #</label>
+                                    <input type="text" class="form-control" id="contact" placeholder="+63 8888 888 8888">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="concern">Concern</label>
+                                    <select class="custom-select">
+                                        
+                                        <option value="1">Quotation</option>
+                                        <option value="2">Services</option>
+                                        <option value="3">Projects</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                                </div>
+
+                                <button type="submit" class="btn send-btn text-light">Send Email</button>
+                            </form>
+                        
+                    
+        </div> 
+<!-- end of contact form -->
+
+
+<!-- 
+<form action=”mailto:contact@yourdomain.com”
+
+
+method=”POST”
+
+
+enctype=”multipart/form-data”
+
+
+name=”EmailForm”>
+
+
+Name:<br>
+
+
+<input type=”text” size=”19″ name=”ContactName”><br><br>
+
+
+Message:<br> <textarea name=”ContactCommentt” rows=”6″ cols=”20″>
+
+
+</textarea><br><br> <input type=”submit” value=”Submit”> </form>
+ -->
+
+
+    
 
 
 
+<!-- Contact Container End -->
+
+<!-- Footer -->
+
+<Footer  >
+
+    <div class="row footer-bg">
+         <div class="col-12">
+             
+                <h6 class="text-center m-0"><strong>Paolo Misa | Full Stack Web Developer</strong></h6>
+
+         </div>
+
+    </div>
+</Footer>
+<!-- Footer End -->
 
 
-
-
-
-
-
-
-
-
+</div>   
 
 
 
