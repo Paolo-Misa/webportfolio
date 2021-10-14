@@ -202,6 +202,10 @@
     background-color: #d4c8be!important;
 }
 
+.icon-color {
+    color: indianred;
+}
+
 .contact-nav-link {
    letter-spacing: 2px;
     font-weight: 500px;

@@ -60,18 +60,13 @@
             </div>
         </nav>
 
-
-
     </div>
-
-
-
 <!-- End of Navbar -->
 
 <!--Home container -->
 
-<div class="container-fluid view-height">
-    <div class="row  row-height">
+<div class="container-fluid ">
+    <div class="row  min-vh-100">
       
         <!-- Name Column -->
         <div class="col-xl-5 col-md-12 col-md-6 col-sm-12  home-container">
@@ -90,11 +85,10 @@
 
 </div>
 
-
 <!--Home container end  -->
 
 <!-- About Container -->
-<div id="About-Section" class="container-fluid about-bg view-height">
+<div id="About-Section" class="container-fluid about-bg min-vh-100">
 
         <!-- first row -->
         <div class="row row-height about-bg">
@@ -108,6 +102,9 @@
 
                     <p class="text-justify mt-3">
                         About me. I'm a husband, a father, and a dog lover. I believe in redemption. I do DIY projects, I'm passionate about cooking. I wake up early to get things done. I love biking and swimming, but I dread running. I listen to Debussy and lofi. and on my free time, I read about design and arts.
+                    </p>
+                    <p class="text-justify">
+                        I am a career shifter, my background is in hospitality and business. I am currently enrolled in Full Stack Web Developer Bootcamp with Zuitt. We are expecting to complete the course by mid December 2021. To know more about me, feel free to download my resume and contact me. Thanks! 
                     </p>
 
                     <a href="./documents/Misa.Paolo.Resume.pdf" download="" target="_blank" class="btn btn-secondary btn-project text-light">My Resume</a>
@@ -124,7 +121,7 @@
         <!-- end of name row and column -->
 
         <!-- card column -->
-            <div class="col-xl-6  col-md-12 about-bg col-sm-12 view-height">
+            <div class="col-xl-6  col-md-12 about-bg col-sm-12 overflow-hidden">
                 
 
                 <!-- goal card -->
@@ -173,9 +170,9 @@
 <div class="container-fluid">
 
         <!-- manual spacer -->
-        <div class="row manual-row-height project-color ">
+     <!--    <div class="row manual-row-height project-color ">
             <div class="col-xl-12 col-md-0 "></div>
-        </div>
+        </div> -->
         <!-- end of manual spacer   -->
 
 
@@ -183,22 +180,22 @@
 
 
         <!-- Projects Row -->
-        <div id="Projects-Section" class="row  justify-content-around project-color ">
-            
+        <div id="Projects-Section" class="row min-vh-100 justify-content-around project-color p-5 ">
+            <!-- <div class="col-md-12 d-flex justify justify-content-around "> -->
                 <!-- card 1 -->
-                <div class="card project-card col-md-3 my-3 " style="width: 18rem;">
-                    <img class="img-fluid mt-3" src="../images/newspaper.jpg" class="card-img-top" alt="portfolio screenshot">
+                <div class="card project-card col-xl-3 col-md-12 my-3 d-flex" style="width: 18rem;">
+                    <img class="img-fluid mt-3" src="../images/memoryGameSample.png" class="card-img-top" alt="Memory Game">
                     <div class="card-body text-center">
-                        <h5 class="card-title "><strong>News Company Website</strong></h5>
-                             <p class="card-text ">for illustration purposes only
+                        <h5 class="card-title "><strong>Tile Memory Game</strong></h5>
+                             <p class="card-text ">This is a mini project to showcase and practice my Javasript Skills. This mini project is in progress. 
                              </p>
-                            <a href="..." class="btn btn-secondary btn-project text-light">go to Project</a>
+                            <a href="..." class="btn btn-secondary btn-project text-light disabled">go to Project</a>
                     </div>
                 </div>
                 
 
                 <!-- card 2 -->
-                <div class="card project-card col-md-3 my-3" style="width: 18rem;">
+                <div class="card project-card col-xl-3 col-md-12 my-3 d-flex" style="width: 18rem;">
                     <img class="img-fluid mt-3" src="../images/landing-screenshot.jpg" class="card-img-top" alt="portfolio screenshot">
                     <div class="card-body text-center">
                         <h5 class="card-title"><strong>My First Project</strong></h5>
@@ -209,25 +206,25 @@
                 </div>
 
                 <!-- card 3 -->
-                <div class="card project-card col-md-3 my-3" style="width: 18rem;">
-                    <img class="img-fluid mt-3" src="../images/shoes.jpg" class="card-img-top" alt="portfolio screenshot">
+                <div class="card project-card col-xl-3 col-md-12 my-3 d-flex" style="width: 18rem;">
+                    <img class="img-fluid mt-3" src="../images/CSSTileGridSample.png" class="card-img-top" alt="CSS Tile Grid">
                     <div class="card-body text-center ">
-                        <h5 class="card-title"><strong>Shoes Website</strong></h5>
-                             <p class="card-text ">for illustration purposes only</p>
+                        <h5 class="card-title"><strong>CSS Tile Grids</strong></h5>
+                             <p class="card-text ">This is a mini project to practice the use of CSS tile grid and use it as a design theme of a website. This mini project is in progress.  </p>
 
-                            <a href="..." class="btn btn-secondary btn-project text-light">go to Project</a>
+                            <a href="..." class="btn btn-secondary btn-project text-light disabled">go to Project</a>
                     </div>
                 </div>
-            
+            <!-- </div> -->
 
         </div>
 
         <!-- end of Projects row -->
 
         <!-- manual spacer -->
-        <div class="row manual-row-height  project-color">
+    <!--     <div class="row manual-row-height  project-color">
             <div class="col-12 "></div>
-        </div>
+        </div> -->
         <!-- end of manual spacer   -->
    
     </div>   
@@ -235,21 +232,68 @@
 <!-- Projects Container End -->
 
 <!-- Contact Container  -->
-<div id="Contact-Section" class="container-fluid">
+<div id="Contact-Section" class="container-fluid  ">
     
-        <div class="row contact-color justify-content-center">
-            <div class="col-12 justify-content-center ">   
-                    <div class="text-center">
+        <div class="row min-vh-100 contact-color p-5 justify-content-center">
+            <div class="col-6 justify-content-center ">   
+                    <div class="text-left">
                     <h2 class=" contact-h2 "><strong>Contact Me</strong></h2>
-                        <a href=""><i class="fab fa-linkedin  fa-2x"></i></a>
-                        <a href=""><i class="fab fa-facebook-messenger  fa-2x"></i></a>
                     </div>
+
+                    
+
+
+                    <div class="contact-item d-flex mb-3">
+                         <div class="icon fs-4 icon-color">
+                            <i class="fas fa-phone fa-lg"></i>
+                         </div>
+                         <div class="text ms-3">
+                            <h5 class="fs-5 pl-1">Phone</h5>
+                            <p class="text-muted">+63 936 954 4483</p>
+                         </div>
+                    </div>
+
+                    <div class="contact-item d-flex mb-3">
+                         <div class="icon fs-4 icon-color">
+                            <i class="fas fa-envelope fa-lg"></i>
+                         </div>
+                         <div class="text ms-3">
+                            <h5 class="fs-5 pl-1"> Email</h5>
+                            <p class="text-muted">paolo.misa@gmail.com</p>
+                         </div>
+                    </div>
+
+                    <div class="contact-item d-flex mb-3 ">
+                         <div class="icon fs-4 icon-color">
+                            <i class="fab fa-linkedin fa-lg"></i>
+                         </div>
+                         <div class="text ms-3">
+                            <h5 class="fs-5 pl-1">LinkedIn</h5>
+                            <p class="text-muted">www.linkedin.com/in/paolo-c-misa</p>
+                         </div>
+                    </div>
+
+                    <div class="contact-item d-flex mb-3">
+                         <div class="icon fs-4 icon-color">
+                            <i class="fab fa-facebook-messenger fa-lg"></i>
+                         </div>
+                         <div class="text ms-3">
+                            <h5 class="fs-5 pl-1">Messenger</h5>
+                            <p class="text-muted">https://m.me/paolo.misa</p>
+                         </div>
+                    </div>
+
+
+
+
+
+
             </div> 
 
                 
                     
                         <!-- <div class=" col-lg-4 col-md-6 col-sm-12"> -->
-                            <form class="col-xl-5 col-md-8 bg-secondary rounded my-3 py-2">
+                            <form class="col-xl-4 col-md-8  rounded my-3 py-2">
 
                                 <div class="form-group">
                                     <label for="name">Name</label>
@@ -281,7 +325,7 @@
                                     <textarea class="form-control" aria-label="With textarea"></textarea>
                                 </div>
 
-                                <button type="submit" class="btn send-btn text-light">Send Email</button>
+                                <button type="submit" class="btn send-btn text-light disabled">Send Email</button>
                             </form>
                         
                     
