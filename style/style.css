@@ -153,6 +153,180 @@
     background-color: #E3E4E0 ;
 }
     
+
+/*buttons with progress*/
+
+
+
+.button{
+  height:40px;
+  width:200px;
+  border:0;
+  background:indianred;
+  position:relative;
+  margin-right:20px;
+  margin-bottom:5px;
+}
+.hoverMTop:after{
+  position:absolute;
+  top:100%;
+  left:0%;
+  width:0;
+  height:2px;
+  background:ghostwhite;
+  display:block;
+  content:'';
+  transition: width 0.5s ease-in-out;
+}
+.hoverMTop:hover:after{
+  width:60%;
+}
+.hoverMebottom:after{
+  position:absolute;
+  top:100%;
+  left:0%;
+  width:0;
+  height:2px;
+  background:ghostwhite;
+  display:block;
+  content:'';
+  transition: width 0.5s ease-in-out;
+}
+.hoverMebottom:hover:after{
+  width:75%;
+}
+.hoverMeleft:after{
+  position:absolute;
+  top:100%;
+  left:0%;
+  width:0;
+  height:2px;
+  background:ghostwhite;
+  display:block;
+  content:'';
+  transition: width 0.5s ease-in-out;
+}
+.hoverMeleft:hover:after{
+  width:40%;
+}
+.hoverMeRight:after{
+ position:absolute;
+  top:100%;
+  left:0%;
+  width:0;
+  height:2px;
+  background:ghostwhite;
+  display:block;
+  content:'';
+  transition: width 0.5s ease-in-out;
+}
+.hoverMeRight:hover:after{
+  width:60%;
+}
+
+.hoverGit:after{
+ position:absolute;
+  top:100%;
+  left:0%;
+  width:0;
+  height:2px;
+  background:ghostwhite;
+  display:block;
+  content:'';
+  transition: width 0.5s ease-in-out;
+}
+.hoverGit:hover:after{
+  width:60%;
+}
+
+.hoverGitLab:after{
+ position:absolute;
+  top:100%;
+  left:0%;
+  width:0;
+  height:2px;
+  background:ghostwhite;
+  display:block;
+  content:'';
+  transition: width 0.5s ease-in-out;
+}
+.hoverGitLab:hover:after{
+  width:60%;
+}
+
+.hoverGitHub:after{
+ position:absolute;
+  top:100%;
+  left:0%;
+  width:0;
+  height:2px;
+  background:ghostwhite;
+  display:block;
+  content:'';
+  transition: width 0.5s ease-in-out;
+}
+.hoverGitHub:hover:after{
+  width:60%;
+}
+
+.hoverMongo:after{
+ position:absolute;
+  top:100%;
+  left:0%;
+  width:0;
+  height:2px;
+  background:ghostwhite;
+  display:block;
+  content:'';
+  transition: width 0.5s ease-in-out;
+}
+.hoverMongo:hover:after{
+  width:30%;
+}
+
+.hoverExpress:after{
+ position:absolute;
+  top:100%;
+  left:0%;
+  width:0;
+  height:2px;
+  background:ghostwhite;
+  display:block;
+  content:'';
+  transition: width 0.5s ease-in-out;
+}
+.hoverExpress:hover:after{
+  width:10%;
+}
+
+.hoverReact:after{
+ position:absolute;
+  top:100%;
+  left:0%;
+  width:0;
+  height:2px;
+  background:ghostwhite;
+  display:block;
+  content:'';
+  transition: width 0.5s ease-in-out;
+}
+.hoverReact:hover:after{
+  width:10%;
+}
+
+.hoverNode:after{
+ position:absolute;
+  top:100%;
+  left:0%;
+  width:0;
+  height:2px;
+  background:ghostwhite;
+  display:block;
+  content:'';
+  transition: width 0.5s ease-in-out;
+}
+.hoverNode:hover:after{
+  width:10%;
 }
 /*end of about page*/
 
@@ -182,12 +356,14 @@
 }
 
 .project-color {
-    background-color: #c7c7bb!important; /*matcha color*/
+    /*background-color: #c7c7bb!important; */
+    background-color:#e3e4e0!important;
 }
 
 .project-card {
-    background-color:#e3e4e0!important;
+     background-color: #c7c7bb!important;
     /*background-color:#7f867b!important;*/
+
 }
 
 
